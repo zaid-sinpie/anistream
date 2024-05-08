@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background: #201f31;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.head-class {
+  background-image: linear-gradient(to right, #2B2A3C 50%, rgba(255, 255, 255, 0)),
+    url(./assets/anw-min.webp);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+}
+
+@media only screen and (max-width:640px) {
+  .head-class{
+    background: #2B2A3C;
+    width: 100%;
+    border-radius: 0;
+    align-items: start;
+    /* padding:  5px; */
+  }
+}
