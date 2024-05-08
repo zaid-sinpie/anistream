@@ -41,7 +41,7 @@ const Header = () => {
       <nav className="links flex gap-3 text-2xl text-stone-100 max-sm:hidden">
         <span className="flex flex-col items-center cursor-pointer hover:text-[#FFB5CE]">
           <a href="#" id="withFriends">
-            <i class="fa-solid fa-user-group text-[#FFB5CE] cursor-pointer text-xl"></i>
+            <i className="fa-solid fa-user-group text-[#FFB5CE] cursor-pointer text-xl"></i>
           </a>
           <label className="text-xs cursor-pointer" htmlFor="withFriends">
             WithFriends
@@ -49,7 +49,7 @@ const Header = () => {
         </span>
         <span className="flex flex-col items-center cursor-pointer hover:text-[#FFB5CE]">
           <a href="#" id="withFriends">
-            <i class="fa-solid fa-shuffle text-[#FFB5CE] cursor-pointer text-xl"></i>
+            <i className="fa-solid fa-shuffle text-[#FFB5CE] cursor-pointer text-xl"></i>
           </a>
           <label className="text-xs cursor-pointer" htmlFor="withFriends">
             Random
@@ -57,7 +57,7 @@ const Header = () => {
         </span>
         <span className="flex flex-col items-center cursor-pointer hover:text-[#FFB5CE]">
           <a href="#" id="withFriends">
-            <i class="fa-solid fa-comment text-[#FFB5CE] cursor-pointer text-xl"></i>
+            <i className="fa-solid fa-comment text-[#FFB5CE] cursor-pointer text-xl"></i>
           </a>
           <label className="text-xs cursor-pointer" htmlFor="withFriends">
             Community
@@ -65,7 +65,7 @@ const Header = () => {
         </span>
         <span className="flex flex-col items-center cursor-pointer hover:text-[#FFB5CE]">
           <a href="#" id="withFriends">
-            <i class="fa-solid fa-globe text-[#FFB5CE] cursor-pointer text-xl"></i>
+            <i className="fa-solid fa-globe text-[#FFB5CE] cursor-pointer text-xl"></i>
           </a>
           <label className="text-xs cursor-pointer" htmlFor="withFriends">
             Translate
