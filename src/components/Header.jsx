@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/anistream.png"
 
 const Header = () => {
   // bg-slate-900
@@ -17,7 +17,7 @@ const Header = () => {
         />
         <div className="absolute flex gap-2 justify-center items-center right-[7px]">
           <i className="fa-solid fa-magnifying-glass text-slate-700 cursor-pointer"></i>
-          <button className="h-[26px] text-slate-200 bg-black px-[6px] py-0 rounded-md hover:bg-[#FFB5CE] hover:text-stone-900 cursor-pointer text-[14px]">
+          <button className="h-[26px] text-slate-200 bg-black px-[6px] py-0 rounded-md hover:bg-primary hover:text-stone-900 cursor-pointer text-[14px]">
             Filter
           </button>
         </div>
@@ -39,40 +39,40 @@ const Header = () => {
         </div>
       </nav>
       <nav className="links flex gap-3 text-2xl text-stone-100 max-sm:hidden">
-        <span className="flex flex-col items-center cursor-pointer hover:text-[#FFB5CE]">
+        <span className="flex flex-col items-center cursor-pointer hover:text-primary">
           <a href="#" id="withFriends">
-            <i className="fa-solid fa-user-group text-[#FFB5CE] cursor-pointer text-xl"></i>
+            <i className="fa-solid fa-user-group text-primary cursor-pointer text-xl"></i>
           </a>
           <label className="text-xs cursor-pointer" htmlFor="withFriends">
             WithFriends
           </label>
         </span>
-        <span className="flex flex-col items-center cursor-pointer hover:text-[#FFB5CE]">
+        <span className="flex flex-col items-center cursor-pointer hover:text-primary">
           <a href="#" id="withFriends">
-            <i className="fa-solid fa-shuffle text-[#FFB5CE] cursor-pointer text-xl"></i>
+            <i className="fa-solid fa-shuffle text-primary cursor-pointer text-xl"></i>
           </a>
           <label className="text-xs cursor-pointer" htmlFor="withFriends">
             Random
           </label>
         </span>
-        <span className="flex flex-col items-center cursor-pointer hover:text-[#FFB5CE]">
+        <span className="flex flex-col items-center cursor-pointer hover:text-primary">
           <a href="#" id="withFriends">
-            <i className="fa-solid fa-comment text-[#FFB5CE] cursor-pointer text-xl"></i>
+            <i className="fa-solid fa-comment text-primary cursor-pointer text-xl"></i>
           </a>
           <label className="text-xs cursor-pointer" htmlFor="withFriends">
             Community
           </label>
         </span>
-        <span className="flex flex-col items-center cursor-pointer hover:text-[#FFB5CE]">
+        <span className="flex flex-col items-center cursor-pointer hover:text-primary">
           <a href="#" id="withFriends">
-            <i className="fa-solid fa-globe text-[#FFB5CE] cursor-pointer text-xl"></i>
+            <i className="fa-solid fa-globe text-primary cursor-pointer text-xl"></i>
           </a>
           <label className="text-xs cursor-pointer" htmlFor="withFriends">
             Translate
           </label>
         </span>
       </nav>
-      <button className="bg-[#FFB5CE] py-2 px-4 font-bold rounded-md text-stone-700 mr-4 max-sm:hidden">
+      <button className="bg-primary py-2 px-4 font-bold rounded-md text-stone-700 mr-4 max-sm:hidden">
         Login
       </button>
     </header>

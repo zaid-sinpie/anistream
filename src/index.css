@@ -13,8 +13,10 @@ body {
 }
 
 .head-class {
+  /* background-image: linear-gradient(to right, #2B2A3C 50%, rgba(255, 255, 255, 0)),
+    url(./assets/anw-min.webp); */
   background-image: linear-gradient(to right, #2B2A3C 50%, rgba(255, 255, 255, 0)),
-    url(./assets/anw-min.webp);
+    url(./assets/aniWepWp.png);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: contain;

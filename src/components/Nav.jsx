@@ -34,30 +34,30 @@ const Nav = () => {
         </a>
       </nav>
       <nav className="flex justify-center items-center gap-3 text-stone-50 sm:hidden ml-[1rem] relative">
-        <div className="flex items-center justify-center gap-3 hover:text-[#FFB5CE]">
+        <div className="flex items-center justify-center gap-3 hover:text-primary">
           <p onClick={handleClick}>
             <i className="fa-solid fa-bars"></i>
           </p>
           <p onClick={handleClick}>Menu</p>
         </div>
         <nav className={modalClasses}>
-          <a href="#" className="hover:text-[#FFB5CE]">
+          <a href="#" className="hover:text-primary">
             Home
           </a>
 
-          <a href="#" className="hover:text-[#FFB5CE]">
+          <a href="#" className="hover:text-primary">
             Movies
           </a>
 
-          <a href="#" className="hover:text-[#FFB5CE]">
+          <a href="#" className="hover:text-primary">
             Tv Series
           </a>
 
-          <a href="#" className="hover:text-[#FFB5CE]">
+          <a href="#" className="hover:text-primary">
             Most Popular
           </a>
 
-          <a href="#" className="hover:text-[#FFB5CE]">
+          <a href="#" className="hover:text-primary">
             Top Airing
           </a>
         </nav>
