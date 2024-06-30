@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import { useState } from "react";
 
 function App() {
-  const [currentActiove, setCurrentActive] = useState("home");
+  const [currentActive, setCurrentActive] = useState("home");
 
   function handleActive(identifier) {
     setCurrentActive(identifier);
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       {/* <Header /> */}
-      {currentActiove === "home" ? <HomePage /> : null}
+      {currentActive === "home" ? <HomePage /> : null}
     </>
   );
 }
