@@ -10,7 +10,7 @@ const Comments = () => {
           className="px-[2rem] bg-[#2B2A3C] py-[1rem] rounded-xl flex flex-col gap-[.5rem] w-full md:w-[80%]"
         >
           <li className="flex w-full justify-between items-start">
-            <span className="flex gap-[5rem] md:gap-2">
+            <span className="flex gap-[5rem] max-md:gap-4">
               <p className="text-stone-400 text-xs">{item.tags}</p>
               <p className="text-stone-500 text-xs">{item.timestamp}</p>
             </span>
